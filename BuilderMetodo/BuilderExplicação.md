@@ -1,0 +1,1 @@
+O padrão Builder é um padrão criacional que é usado quando você precisa criar um objeto complexo com muitos parâmetros de configuração. Ele separa a construção de um objeto complexo de sua representação e permite que você crie diferentes representações do objeto usando o mesmo processo de construção.

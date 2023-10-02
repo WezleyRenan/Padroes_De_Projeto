@@ -1,4 +1,4 @@
-package Singleton;
+package SingletonMetodo;
 
 public class Log {
     // 1. Variável estática privada para armazenar a instância única

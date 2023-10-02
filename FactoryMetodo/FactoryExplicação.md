@@ -1,0 +1,1 @@
+O Factory Method é um padrão de projeto criacional que é amplamente utilizado em desenvolvimento de software. Sua principal importância é permitir que você crie objetos sem especificar a classe exata do objeto que será criado. Isso torna seu código mais flexível, extensível e desacoplado, pois você depende de interfaces e abstrações em vez de classes concretas.

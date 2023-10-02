@@ -1,0 +1,1 @@
+O padrão Abstract Factory é uma abstração que fornece uma interface para criar famílias de objetos relacionados sem especificar suas classes concretas. Ele permite que você crie objetos inter-relacionados, garantindo que eles sejam compatíveis entre si, promovendo a flexibilidade e a independência das classes concretas.
