@@ -1,4 +1,4 @@
-package Atividade7;
+package DecoratorMetodo;
 
 public abstract class NotificacaoDecorator extends Notificacao {
 	

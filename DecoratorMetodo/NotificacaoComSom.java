@@ -1,10 +1,10 @@
-package Atividade7;
+package DecoratorMetodo;
 
 public class NotificacaoComSom extends NotificacaoDecorator {
 	
 	public NotificacaoComSom(Notificacao umaNotificacao) {
 		super(umaNotificacao);
-		exibirMensagem = "Notificação comm Som!";
+		exibirMensagem = "Notificaï¿½ï¿½o comm Som!";
 	}
 
 }

@@ -1,4 +1,4 @@
-package Atividade7;
+package DecoratorMetodo;
 
 public class NotificacaoComPrioridade extends NotificacaoDecorator {
 	
@@ -6,7 +6,7 @@ public class NotificacaoComPrioridade extends NotificacaoDecorator {
 
 	public NotificacaoComPrioridade(Notificacao umaNotificacao) {
 		super(umaNotificacao);
-		exibirMensagem = "notificação com prioridade";
+		exibirMensagem = "notificaï¿½ï¿½o com prioridade";
 		prioridade = true;
 	}
 	

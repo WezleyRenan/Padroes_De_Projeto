@@ -1,10 +1,10 @@
-package Atividade7;
+package DecoratorMetodo;
 
 public class NotificacaoComImagem extends NotificacaoDecorator {
 
 	public NotificacaoComImagem(Notificacao umaNotificacao) {
 		super(umaNotificacao);
-		exibirMensagem = "Notificação com imagem!";
+		exibirMensagem = "Notificaï¿½ï¿½o com imagem!";
 	}
 
 }

@@ -1,10 +1,10 @@
-package Atividade7;
+package DecoratorMetodo;
 
 public class NotificacaoComLog extends NotificacaoDecorator {
 
 	public NotificacaoComLog(Notificacao umaNotificacao) {
 		super(umaNotificacao);
-		exibirMensagem = "notificação com arquivo log";
+		exibirMensagem = "notificaï¿½ï¿½o com arquivo log";
 	}
 
 }
