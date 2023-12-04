@@ -1,12 +1,12 @@
 package DecoratorMetodo;
 
-public class NotificacaoComPrioridade extends NotificacaoDecorator {
+public class NotificacaoComPrioridade extends NotificacaoDecorator { //classe decorativa, extende a classe decorator
 	
-	boolean prioridade = false;
+	boolean prioridade;
 
-	public NotificacaoComPrioridade(Notificacao umaNotificacao) {
+	public NotificacaoComPrioridade(Notificacao umaNotificacao) { //Construtor
 		super(umaNotificacao);
-		exibirMensagem = "notifica��o com prioridade";
+		exibirMensagem = "notificação com prioridade" + "/n prioridade:" + prioridade;
 		prioridade = true;
 	}
 	

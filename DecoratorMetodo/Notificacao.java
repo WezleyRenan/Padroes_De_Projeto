@@ -1,14 +1,14 @@
 package DecoratorMetodo;
 
-public abstract class Notificacao {
-	String exibirMensagem;
+public abstract class Notificacao { //Classe Principal
 
-	public String getExibirMensagem() {
+	String exibirMensagem; //atributo de mensagem
+	
+	public String getExibirMensagem() { //retornar a mensagem
 		return exibirMensagem;
 	}
-
 	public void setExibirMensagem(String exibirMensagem) {
-		this.exibirMensagem = exibirMensagem;
-	}
+        this.exibirMensagem = exibirMensagem;
+    }
 	
 }

@@ -1,10 +1,10 @@
 package DecoratorMetodo;
 
-public class NotificacaoComLog extends NotificacaoDecorator {
+public class NotificacaoComLog extends NotificacaoDecorator { //classe decorativa, extende a classe decorator
 
-	public NotificacaoComLog(Notificacao umaNotificacao) {
+	public NotificacaoComLog(Notificacao umaNotificacao) { //Construtor
 		super(umaNotificacao);
-		exibirMensagem = "notifica��o com arquivo log";
+		exibirMensagem = "notificação com arquivo log";
 	}
 
 }

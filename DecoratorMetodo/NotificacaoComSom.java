@@ -1,10 +1,11 @@
 package DecoratorMetodo;
 
-public class NotificacaoComSom extends NotificacaoDecorator {
+public class NotificacaoComSom extends NotificacaoDecorator { //classe decorativa, extende a classe decorator
 	
-	public NotificacaoComSom(Notificacao umaNotificacao) {
+
+	public NotificacaoComSom(Notificacao umaNotificacao) { // Construtor
 		super(umaNotificacao);
-		exibirMensagem = "Notifica��o comm Som!";
+		exibirMensagem = "Notificação com Som!";
 	}
 
 }
