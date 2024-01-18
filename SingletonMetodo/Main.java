@@ -7,6 +7,7 @@ public class Main {
         Log singleton2 = Log.getInstance();
         Log singleton3 = Log.getInstance();
         Log singleton4 = Log.getInstance();
+        
 
         
         // 6. Usando métodos #1 da instância Singleton
