@@ -1,7 +1,7 @@
 package FactoryMetodo;
 // FactoryMethodExample.java
 
-public class FactoryMethodExample {
+public class Main {
     public static void main(String[] args) {
         // Crie uma fábrica para caminhões
         FabricaTransporte fabricaCaminhao = new FabricaCaminhao();
